@@ -1,0 +1,24 @@
+{
+    "name": "majuto/laravel-jasper",
+    "description": "This package lets you use the Jasper REST Client library in Laravel",
+    "type": "library",
+    "require": {
+        "jaspersoft/rest-client": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "MajuTo\\LaravelJasper": "src/"
+        },
+        "files": [
+            "src/MajuTo/LaravelJasper/helpers.php"
+        ]
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "MajuTo\\LaravelJasper\\JasperServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev"
+}
