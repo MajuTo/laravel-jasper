@@ -13,6 +13,7 @@
             "src/MajuTo/LaravelJasper/helpers.php"
         ]
     },
+    "license": "GPL-3.0",
     "extra": {
         "laravel": {
             "providers": [
