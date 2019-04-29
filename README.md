@@ -30,7 +30,7 @@ If you need to manage multiple jasper servers, you can add new config keys :
 
 ```bash
 return [
-    'default' => 'jasper',
+    'default' => 'prod',
 
     'prod' => [
         "host" => env('JASPER_HOST', "jasper.local"),
